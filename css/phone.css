@@ -1,0 +1,133 @@
+ 
+/* nav{
+    flex-direction: column;
+ } */
+
+@media screen and (max-width: 1295px){
+.text-box {
+    height: 77%;
+    width: 31%;
+    color: white;
+    position: absolute;
+    top: 165px;
+    right: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 2.2rem;
+}
+
+.text-box p {
+    font-size: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-col{
+    background: moccasin;
+}
+
+.blog col img{
+    width: 83%;
+    height: 100%;
+}
+
+.testimonials{
+    padding-top:12px;
+}
+}
+@media screen and (max-width: 1275px){
+.text-box{
+    height: 75%;
+    width: 31%;
+    color: white;
+    position: absolute;
+    top: 141px;
+    right: 3px;
+    justify-content: center;
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 770px){
+    .text-box {
+        height: 91%;
+        width: 42%;
+        color: white;
+        position: relative;
+        top: 63px;
+        left: 13px;
+        justify-content: center;
+        text-align: center;
+}
+}
+@media screen and (max-width: 600px){
+    nav {
+        flex-direction: column;
+
+    }
+
+    #nav-logo{
+        height:49px;
+        width:71px;
+    }
+
+    .btn{
+        font-size:30px ;
+    }
+
+    /* nav .bar-icon{
+        display: block;
+    }
+
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(136, 39, 4);
+        top: 80px;
+        left: 0;
+        text-align: center;
+    }
+
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav a{
+        font-size: 20px;
+    } */
+
+    /* a:hover{
+
+    } */
+}
+
+@media screen and (max-width: 463px){
+    .btn{
+        font-size:20px ;
+    }
+
+    .text-box{
+        height: 85%;
+        width: 40%;
+        color: white;
+        position: relative;
+        top: -36px;
+        left: 13px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav{
+        font-size: 1rem;
+    }
+}
